@@ -23,6 +23,8 @@ Unlike virtual machines which require a full, separate "guest" Operating System 
 
 When the primary process running inside the container (specified by the `CMD` or `ENTRYPOINT` instruction—in this case, running the Python script) completes its task and exits, the container itself automatically stops. The container remains on the system in an "exited" state (which can be viewed using `docker ps -a`) until it is explicitly removed.
 
+### Acknowledgment
+
 We are grateful to our instructors for their guidance and support throughout the development of this project. 
 
 This work reflects my learning journey as a programmer.
